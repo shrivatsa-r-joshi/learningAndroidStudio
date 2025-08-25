@@ -1,0 +1,154 @@
+<!--This is the model of Amazon-->
+
+
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:background="@color/teal_200"
+        tools:ignore="UselessParent">
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="75dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="@string/pay" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="@string/fresh" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="Bazaar"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="@string/mx_player" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="@string/medical" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:contentDescription="@string/todo1"
+            android:src="@drawable/search__background"
+            tools:ignore="RtlHardcoded" />
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="100"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="14dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/deliver_to_xyz_banglore_590059"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="#4CD4FE" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="87"
+        android:layout_width="match_parent"
+        android:background="#808080"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/body"
+            android:textColor="@color/black"
+            android:textSize="44sp"
+            android:layout_gravity="center">
+
+        </TextView>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4">
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/home" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/you" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/wallet" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/cart" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/menu" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/rufus" />
+
+        
+    </LinearLayout>
+
+
+
+</LinearLayout>
