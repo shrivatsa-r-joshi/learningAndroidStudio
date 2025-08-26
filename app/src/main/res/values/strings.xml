@@ -35,4 +35,16 @@
     <string name="catergories">Catergories</string>
     <string name="print">Print</string>
     <string name="zomato">zomato</string>
+    <string name="facebook">facebook</string>
+    <string name="hij">-</string>
+    <string name="hello1">-</string>
+    <string name="hello2">-</string>
+    <string name="hello3">-</string>
+    <string name="hello4">-</string>
+    <string name="hello5">-</string>
+    <string name="hello6">-</string>
+    <string name="hello7">-</string>
+    <string name="user_image">user_image</string>
+    <string name="stories">Stories</string>
+    <string name="body8">Body</string>
 </resources>
